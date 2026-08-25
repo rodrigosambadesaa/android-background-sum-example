@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         if (!canUpdateUi() || currentTask == null) {
             return;
         }
-        binding.progressBar.setProgress(completed, true);
+        binding.progressBar.setProgress(completed);
         binding.statusText.setText(getString(R.string.working, completed, total));
     }
 
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         if (!canUpdateUi()) {
             return;
         }
-        binding.progressBar.setProgress(NUMBERS.length, true);
+        binding.progressBar.setProgress(NUMBERS.length);
         binding.statusText.setText(getString(R.string.finished, result));
         currentTask = null;
         setRunningState(false);
