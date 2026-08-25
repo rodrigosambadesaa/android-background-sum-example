@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Suma en segundo plano</string>
+    <string name="title">Ejemplo de tarea cancelable</string>
+    <string name="description">Suma 10, 7, 8, 2, 4 y 1 fuera del hilo principal mientras publica el progreso.</string>
+    <string name="start">Iniciar suma</string>
+    <string name="cancel">Cancelar</string>
+    <string name="idle">Preparado.</string>
+    <string name="working">Procesando %1$d de %2$d…</string>
+    <string name="finished">Resultado: %1$d</string>
+    <string name="cancelled">Tarea cancelada.</string>
+    <string name="failed">La tarea no pudo completarse.</string>
+    <string name="progress_description">Progreso de la suma</string>
+</resources>

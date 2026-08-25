@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.tesdai.myapplication'
+    compileSdk 37
+
+    defaultConfig {
+        applicationId 'com.example.tesdai.myapplication'
+        minSdk 23
+        targetSdk 37
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.8.0'
+    testImplementation 'junit:junit:4.13.2'
+}
